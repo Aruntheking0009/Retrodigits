@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../Images/yellow-model-career-kit-arrangement_23-2150083949.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+h1{
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+p{
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-box{
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-left, .contact-right{
+    padding: 40px;
+}
+
+.contact-left{
+    flex: 1;
+}
+
+.contact-right{
+    flex: 1;
+    background: linear-gradient(#3d063e, #401d79, #140131);
+    color: #fff;
+}
+
+.contact-left h2, .contact-right h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.input-group{
+    margin-bottom: 20px;
+}
+
+.input-group label{
+    display: block;
+    margin-bottom: 6px;
+    color: #060410;
+    font-weight: 600;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea{
+    resize: vertical;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    background-color: #401d79;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: #3d063e;
+}
+
+.contact-right ul{
+    list-style: none;
+    padding: 0;
+}
+
+.contact-right ul li{
+    margin-bottom: 10px;
+}
+
+.contact-right ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-right ul li a:hover{
+    text-decoration: underline;
+}
